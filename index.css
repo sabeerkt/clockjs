@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url('https://wallpaperaccess.com/full/881107.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+h2 {
+    color: #f4f4f4;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+.clock {
+    display: flex;
+
+}
+
+.clock div {
+    margin: 5px;
+    position: relative;
+}
+
+.clock span {
+    width: 100px;
+    height: 80px;
+    background-color: rgb(176, 138, 89);
+    opacity: 8;
+    color: #0f0e0e;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(red, green, blue, alpha);
+    justify-content: center;
+
+}
+
+.clock .text {
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-size: medium;
+    letter-spacing: 3px;
+    background-color: rgb(192, 194, 194);
+    justify-content: center;
+}
+
+.clock #am {
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    
+}
